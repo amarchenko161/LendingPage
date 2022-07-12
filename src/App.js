@@ -4,6 +4,7 @@ import Description from './Components/DescriptionComponent/Description';
 import Header from './Components/HeaderComponent/Header';
 import TrustedCompanies from './Components/TrustedCompaniesComponent/TrustedCompanies';
 import MainAdvantages from './Components/MainAdvantagesComponent/MainAdvantages';
+import StoreMetrics from './Components/StoreMetricsComponent/StoreMetrics';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Description />
       <TrustedCompanies />
       <MainAdvantages />
+      <StoreMetrics/>
     </div>
   );
 }
