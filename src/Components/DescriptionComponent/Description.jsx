@@ -1,12 +1,12 @@
 import React from 'react'
 import Billing from '../../Assets/Billing.png'
 import Open from '../../Assets/icons/open.svg'
-import './Description.css'
+import './style.css'
 
 const Description = () => {
   return (
-    <div className='description-conatiner'>
-      <div className='description-info'>
+    <main className='description-conatiner'>
+      <section className='description-info'>
         <div className='description-title'>
           Fast. Accurate. Reliable
         </div>
@@ -14,9 +14,9 @@ const Description = () => {
           The most powerful finance software that connects with your financial accounts. 
           Track <br/> spending and categorize expenses so you can see where your money is going.
         </div>
-      </div>
-      <div className='select-block'>
-        <div className='left-section'>
+      </section>
+      <section className='select-block'>
+        <section className='left-section'>
           <div className='task-select'>
             <span className='name-title'>Task</span>
             <span className='select'>Select</span>
@@ -24,8 +24,8 @@ const Description = () => {
           <div className='check'>
             <img src={Open} alt = '' />
           </div>
-        </div>
-        <div className='right-section'>
+        </section>
+        <section className='right-section'>
           <div className='departments-select'>
             <span className='name-title'>Departments</span>
             <span className='select'>Select</span>
@@ -33,15 +33,15 @@ const Description = () => {
           <div className='check'>
             <img src={Open} alt = '' />
           </div>
-        </div>
-        <div className='search-input'>
+        </section>
+        <button className='search-input'>
           Search
-        </div>
-      </div>
+        </button>
+      </section>
       <div className='billing-info'>
         <img src={Billing} alt=''/>
       </div>
-    </div>
+    </main>
   )
 }
 

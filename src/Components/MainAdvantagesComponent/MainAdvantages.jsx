@@ -6,9 +6,9 @@ import './style.css'
 
 const MainAdvantages = () => {
   return (
-    <div className='advantages-container'>
-      <div className='sub-container'>
-        <div className='accounts'>
+    <main className='advantages-container'>
+      <section className='sub-container'>
+        <section className='accounts'>
           <img src={house} alt='' className='icons'/>
           <div className='info-name'>
             Accounts
@@ -20,8 +20,8 @@ const MainAdvantages = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
             purus sit amet luctus venenatis, lectus magna fringilla urna
           </div>
-        </div>
-        <div className='secure'>
+        </section>
+        <section className='secure'>
           <img src={defend} alt='' className='icons'/>
           <div className='info-name'>
             Secure
@@ -33,8 +33,8 @@ const MainAdvantages = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
             purus sit amet luctus venenatis, lectus magna fringilla urna
           </div>
-        </div>
-        <div className='analytics'>
+        </section>
+        <section className='analytics'>
           <img src={graph} alt='' className='icons'/>
           <div className='info-name'>
             Analytics
@@ -46,9 +46,9 @@ const MainAdvantages = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
             purus sit amet luctus venenatis, lectus magna fringilla urna
           </div>
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </main>
   )
 }
 
