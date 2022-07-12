@@ -8,7 +8,7 @@ const StoreMetrics = () => {
         <main className="container">
           <section className="left-content">
             <section className="content-info">
-                <span className="title">WHY CHOOSE US</span>
+                <span className="title-metrics">WHY CHOOSE US</span>
                 <span className="general-info">Track real time data <br/> with advanced analytics</span>
                 <span className="describe">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</span>
             </section>
