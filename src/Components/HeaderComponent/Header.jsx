@@ -1,34 +1,33 @@
 import React from 'react'
-
-import './style.css'
 import EnglishIcon from '../../Assets/icons/EnglishIcon.svg'
 import Logo from '../../Assets/icons/Logo.svg'
+import './style.css'
 
 const Header = () => {
   return (
-    <div className='header-container'>
-      <div className='sub-container'>
-        <div className='logo'>
+    <header className='header-container'>
+      <main className='sub-container'>
+        <section className='logo'>
           <img src={Logo} alt ='logo' />
-          Logo
-        </div>
-        <div className='dropDown-menu'>
+         <span>Logo</span> 
+        </section>
+        <nav className='dropDown-menu'>
           <span>Food</span>
           <span>Candy</span>
           <span>Bread</span>
-        </div>
-        <div className='switch-language'>
+        </nav>
+        <nav className='switch-language'>
           <img src={EnglishIcon} alt='translate' />
           <span className='languane-name'>English</span>
-        </div>
-        <div className='auth'>
-          <span>Login</span>
-          <div className='get-started'> 
+        </nav>
+        <nav className='auth'>
+          <article>Login</article>
+          <button className='get-started'> 
             Get Started
-          </div>
-        </div>
-      </div>
-    </div>
+          </button>
+        </nav>
+      </main>
+    </header>
   )
 }
 
