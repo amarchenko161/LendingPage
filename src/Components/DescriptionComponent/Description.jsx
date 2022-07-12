@@ -1,6 +1,6 @@
 import React from 'react'
 import Billing from '../../Assets/Billing.png'
-import Open from '../../Assets/open.svg'
+import Open from '../../Assets/icons/open.svg'
 import './Description.css'
 
 const Description = () => {

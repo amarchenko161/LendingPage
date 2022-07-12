@@ -1,0 +1,59 @@
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 146px;
+  width: 100%;
+}
+
+.sub-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accounts {
+  width: 27%;
+  padding: 0 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px 2px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.secure{
+  width: 27%;
+  padding: 0 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px 2px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.analytics{
+  width: 27%;
+  border-radius: 12px;
+  padding: 0 24px;
+  box-shadow: 0 4px 6px 2px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.info-name {
+  font-size: 14px;
+  color: #64748B;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-style: Bold;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.subtitle{
+  font-size: 16px;
+  font-weight: 300;
+  color: #191D23;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+
+.icons{
+  margin-top: 32px;
+}
