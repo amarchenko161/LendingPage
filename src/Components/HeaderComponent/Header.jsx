@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './style.css'
-import EnglishIcon from '../../Assets/EnglishIcon.svg'
-import Logo from '../../Assets/Logo.svg'
+import EnglishIcon from '../../Assets/icons/EnglishIcon.svg'
+import Logo from '../../Assets/icons/Logo.svg'
 
 const Header = () => {
   return (
