@@ -1,0 +1,80 @@
+.powerful-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.powerful-info{
+  margin-top:172px;
+}
+
+.powerful-content {
+  display: flex;
+  flex-direction: column;
+  width: 566px;
+}
+
+.powerful-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+
+
+.powerful-subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  background: linear-gradient(#55CBFB,#1D4ED8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.powerful-describe {
+  font-size: 20px;
+  font-weight: 400;
+  color: #191D23;
+  margin-top: 16px;
+}
+
+.pay-sub{
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  justify-content: center;
+}
+
+.variable-sub{
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pay-text{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.border-button{
+  width: 50px;
+    height: 15px;
+    background: rgba(4, 9, 33, 0.32);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.cicle-button{
+  width: 20px;
+  height: 20px;
+  background:#FFFFFF;
+  border-radius: 10px;
+}
+
+.sell-price{
+  font-size: 18px;
+  font-weight: 500;
+  color: #1D4ED8;
+}

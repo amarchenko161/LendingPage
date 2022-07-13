@@ -6,6 +6,7 @@ import TrustedCompanies from './Components/TrustedCompaniesComponent/TrustedComp
 import MainAdvantages from './Components/MainAdvantagesComponent/MainAdvantages';
 import StoreMetrics from './Components/StoreMetricsComponent/StoreMetrics';
 import ManagesTeams from './Components/ManagesTeamsComponent/ManagesTeams';
+import PowerfulFeatures from './Components/PowerfulFeaturesComponents/PowerfulFeatures';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Description />
       <TrustedCompanies />
       <MainAdvantages />
-      <StoreMetrics/>
-      <ManagesTeams/>
+      <StoreMetrics />
+      <ManagesTeams />
+      <PowerfulFeatures />
     </div>
   );
 }
